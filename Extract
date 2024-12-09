@@ -1,0 +1,64 @@
+if game.PlaceId == 116605585218149 then
+    local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+    local Window = OrionLib:MakeWindow({Name = "Extract Hub😈                                                                   V2", HidePremium = false, IntroText = "Extract Hub", SaveConfig = true, ConfigFolder = "OrionTest"})
+    
+    local TpTab = Window:MakeTab({
+        Name = "Teleports",
+        Icon = "rbxassetid://4483345998",
+        PremiumOnly = false
+   
+    })
+    
+    TpTab:AddButton({
+        Name = "Default",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(796.983765, 124.6828, -219.491791, 0.866007268, 0, -0.500031412, 0, 1, 0, 0.500031412, 0, 0.866007268)
+          end    
+    })
+    
+    TpTab:AddButton({
+        Name = "Vulcano",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(221.580063, 125.659431, 915.592041, -0.445500791, -9.24944317e-08, -0.895281553, -2.14270273e-08, 1, -9.26509358e-08, 0.895281553, -2.20928431e-08, -0.445500791)
+          end    
+    })
+  
+    TpTab:AddButton({
+        Name = "Snowy",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(221.580063, 125.659431, 915.592041, -0.445500791, -9.24944317e-08, -0.895281553, -2.14270273e-08, 1, -9.26509358e-08, 0.895281553, -2.20928431e-08, -0.445500791)
+          end    
+    })
+
+    TpTab:AddButton({
+        Name = "Deep",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-995.850952, 123.653107, -1568.83081, -0.0222411286, 2.90883726e-08, -0.999752641, -2.01719637e-08, 1, 2.95443279e-08, 0.999752641, 2.08240731e-08, -0.0222411286)
+          end    
+    })
+
+    TpTab:AddButton({
+        Name = "Ancient",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(545.957825, 125.165764, -2891.89673, 0.809471905, 4.97098007e-08, -0.58715862, 4.41140502e-09, 1, 9.07432991e-08, 0.58715862, -7.60443442e-08, 0.809471905)
+          end    
+    })
+
+    TpTab:AddButton({
+        Name = "High",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(2576.71313, 123.556419, -3441.60962, 0.451034695, 9.791205e-08, -0.892506421, 2.53318455e-09, 1, 1.10984757e-07, 0.892506421, -5.23188568e-08, 0.451034695)
+          end    
+    })
+  
+    TpTab:AddButton({
+        Name = "Toxic",
+        Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4679.86182, 125.359131, -2454.53076, 0.690616965, 5.50350414e-08, -0.723220706, 4.40887238e-09, 1, 8.03072737e-08, 0.723220706, -5.86501514e-08, 0.690616965)
+          end    
+    })
+
+
+
+end
+OrionLib:Init()
